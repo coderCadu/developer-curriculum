@@ -1,0 +1,36 @@
+{
+  "name": "developer-curriculum",
+  "version": "0.0.1",
+  "description": "Coding my curriculum",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderCadu/developer-curriculum.git"
+  },
+  "author": "coderCadu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderCadu/developer-curriculum/issues"
+  },
+  "homepage": "https://github.com/coderCadu/developer-curriculum#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "dotenv-expand": "^11.0.6",
+    "next": "^14.2.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "husky": "^9.1.6",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.3"
+  }
+}
